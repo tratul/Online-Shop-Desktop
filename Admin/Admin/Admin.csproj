@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58210AE7-42FB-481C-86C9-696FB1CED94E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Admin</RootNamespace>
+    <AssemblyName>Admin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminLogIn.Designer.cs">
+      <DependentUpon>adminLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSignUp.Designer.cs">
+      <DependentUpon>AdminSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_panel.Designer.cs">
+      <DependentUpon>Admin_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ad_quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ad_quantity.Designer.cs">
+      <DependentUpon>ad_quantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ad_showItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ad_showItem.Designer.cs">
+      <DependentUpon>Ad_showItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs" />
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="projectDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="projectDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>projectDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="adminLogIn.resx">
+      <DependentUpon>adminLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSignUp.resx">
+      <DependentUpon>AdminSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_panel.resx">
+      <DependentUpon>Admin_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ad_quantity.resx">
+      <DependentUpon>ad_quantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ad_showItem.resx">
+      <DependentUpon>Ad_showItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="projectDBDataSet.xsc">
+      <DependentUpon>projectDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet.xss">
+      <DependentUpon>projectDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet1.xsc">
+      <DependentUpon>projectDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet1.xss">
+      <DependentUpon>projectDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet2.xsc">
+      <DependentUpon>projectDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet2.xss">
+      <DependentUpon>projectDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet3.xsc">
+      <DependentUpon>projectDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet3.xss">
+      <DependentUpon>projectDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet4.xsc">
+      <DependentUpon>projectDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet4.xss">
+      <DependentUpon>projectDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet5.xsc">
+      <DependentUpon>projectDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet5.xss">
+      <DependentUpon>projectDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet6.xsc">
+      <DependentUpon>projectDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="projectDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>projectDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="projectDBDataSet6.xss">
+      <DependentUpon>projectDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_v01D_support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_log.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-administrator.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
