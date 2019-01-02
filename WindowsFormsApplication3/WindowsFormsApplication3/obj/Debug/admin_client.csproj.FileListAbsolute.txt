@@ -1,0 +1,28 @@
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\admin_client.csprojResolveAssemblyReference.cache
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Client.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\admin_client.csproj.GenerateResource.Cache
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.SignUp_Form.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Shop.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.CartForm.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.ProceedForm.resources
+C:\Users\asieb\OneDrive\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.RemoveForm.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\admin_client.csprojResolveAssemblyReference.cache
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.CartForm.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Client.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.ProceedForm.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.RemoveForm.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Shop.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.SignUp_Form.resources
+G:\Spring-18\OBJECT ORIENTED PROGRAMMING 2 [I]\project\C# Final Project\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\admin_client.csproj.GenerateResource.Cache
